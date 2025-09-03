@@ -10,3 +10,7 @@ This is Tech Assesment from KOMO- East west Bank
 4.  to Run the project NPM start:dev
 
 the display must be http://localhost:3000/
+
+Submitting SOURCE CODE FOR KOMO
+
+after the Error deletion from google email

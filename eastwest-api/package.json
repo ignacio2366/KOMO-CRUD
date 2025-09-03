@@ -1,0 +1,28 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "main": "./src/index.ts",
+    "build": "tsc --build",
+    "start": "tsc --build && node ./dist/src/index.js",
+    "start:dev": "nodemon --exec ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "nodemon": "^3.1.10",
+    "swagger-autogen": "^2.23.7",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  }
+}
